@@ -4,16 +4,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 500px;
     margin: 0;
 }
 
 #counter {
-    font-size: 2em;
+    font-size: 40px;
     margin: 0 10px;
 }
 
 button {
-    font-size: 1em;
+    font-size: 20px;
     cursor: pointer;
 }
