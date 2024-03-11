@@ -14,6 +14,8 @@ function input() {
     const inside = document.getElementById("inputNumber").value;
     count = inside;
     document.getElementById("counter").innerText = count;
+    clicks ++;
+    updateClicks();
 }
 
 function zero() {
