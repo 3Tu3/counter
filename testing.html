@@ -1,18 +1,38 @@
 <html>
     <header>
-        <link rel="stylesheet" href="testing.css">
-        <script src="testing.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
     </header>
     <body>
-        <button onclick="zero()">zero</button>
-        <button onclick="fiveless()">-500</button>
-        <button onclick="less()">-100</button>
-        <button onclick="decrement()">-</button>
+        <div class="capsule">
+            <div class="zero">
+                <input type="number" id="inputNumber">
+                <button onclick="input()">submit</button>
+            </div>
+            <div class="zero">
+                <span id="clicks">clicks 0</span>
+            </div>
+            <div class="middle">
+                <button onclick="fiveless()">-500</button>
+                <button onclick="less()">-100</button>
+                <button onclick="decrement()">-</button>
 
-        <span id="counter">0</span>
-        
-        <button onclick="increment()">+</button>
-        <button onclick="more()">+100</button>
-        <button onclick="fivemore()">+500</button>
+                <span id="counter">0</span>
+
+                <button onclick="increment()">+</button>
+                <button onclick="more()">+100</button>
+                <button onclick="fivemore()">+500</button>
+            </div>
+
+            <div class="zero">
+                <button onclick="zero()">zero counter</button>
+                <button onclick="zeroClicks()">zero clicks</button>
+            </div>
+            <div class="zero">
+                <button onclick="zeroAll()">zero all values</button>
+            </div>
+        </div>
     </body>
 </html>
