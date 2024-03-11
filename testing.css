@@ -1,11 +1,25 @@
 body {
     background-color: black;
     color: white;
+}
+
+.capsule {
+    height: 500px;
+    margin-top: 265px;
+}
+
+.middle {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 500px;
     margin: 0;
+}
+
+.zero {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #counter {
@@ -17,3 +31,4 @@ button {
     font-size: 20px;
     cursor: pointer;
 }
+
